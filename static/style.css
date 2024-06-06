@@ -1,0 +1,46 @@
+<style>
+body {
+ font-family: sans-serif;
+}
+.container {
+ display: flex;
+ justify-content: space-around;
+ background-color:
+}
+.box {
+ border: 1px solid #ccc;
+ padding: 20px;
+ margin: 20px;
+ background-color: darkgray;
+ border-radius: 20px;
+}
+button {
+ padding: 10px 20px;
+ background-color: blue;
+ color: white;
+ border: none;
+ cursor: pointer;
+ margin-right: 10px;
+ border-radius: 10px;
+ font-weight: 1000;
+}
+.submit{
+ position: absolute;
+ top: 565px; /* Adjust top position */
+ left: 270px; /* Adjust left position */
+}
+.submit2{
+ position: absolute;
+ top: 565px; /* Adjust top position */
+ left: 1050px; /* Adjust left position */
+}
+.response-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+</style>
