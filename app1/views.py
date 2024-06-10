@@ -3,4 +3,8 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, "home.html")
+    if (request.GET):
+        data=request.GET['userText']
+    else:
+        data=' '
+    return render(request, "home.html",{'KEY':data})
